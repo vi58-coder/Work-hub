@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,30 +11,55 @@ body {
     box-sizing: border-box;
 }
 
-header {
+.header__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    justify-content: space-between;
+    padding: 1.5rem 3rem 1rem 3rem;
     background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo h2{
+    text-transform: uppercase;
+    padding-top: 1.3rem;
+}
+
+.logo span{
+    color: #002F5C;
+}
+
+.wrapper__1{
+    display: flex;
 }
 
 .logo img {
     width: 100px;
 }
 
+.search-bar{
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
 .search-bar input {
-    padding: 10px;
+    padding: 10px 15rem 10px 10px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-nav ul {
+.first__nav{
     list-style: none;
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     margin: 0;
-    padding: 0;
+    padding: 2rem 15px 8px 15px;
+}
+
+.bottom__nav{
+    padding: 0px 1rem;
 }
 
 nav a {
@@ -37,32 +68,45 @@ nav a {
     font-weight: bold;
 }
 
+.auth-buttons{
+    justify-self: flex-end;
+    padding-left: 20rem;
+    padding-top: .8rem;
+}
+
 .auth-buttons a {
     text-decoration: none;
-    margin-left: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
+    /*margin-left: 10px;*/
+    padding: 10px 25px;
+    border-radius: 20px;
 }
 
 .sign-in {
     color: #333;
+    font-weight: 600;
 }
 
-.join, .hire {
-    background-color: #0073e6;
+.hire {
+    background-color: #002F5C;
     color: #fff;
 }
 
-main {
+
+.join{
+    border: 1px solid black;
+    color: black;
+}
+
+
+.main__container {
     display: flex;
-    justify-content: space-between;
-    padding: 50px 20px;
+    gap: 4px;
+    padding: 50px 0px;
 }
 
 section {
-    width: 45%;
+    width: 50%;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .buyer {
@@ -71,25 +115,33 @@ section {
 }
 
 .seller {
-    background-color: #F04E23;
+    display: flex;
+    gap: 2rem;
+    background-color: #D36540;
     color: #fff;
     position: relative;
 }
 
-.seller img {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-radius: 10px;
+.together__1{
+    padding: 6rem 2.5rem;
 }
+
+
 
 .btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #fff;
     color: #333;
-    border-radius: 5px;
+    border-radius: 30px;
     text-decoration: none;
+}
+
+.right__cont{
+    max-width: 50%;
+}
+
+.container__para{
+    line-height: 25px;
 }
