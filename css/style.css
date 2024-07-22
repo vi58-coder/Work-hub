@@ -145,3 +145,77 @@ section {
 .container__para{
     line-height: 25px;
 }
+
+
+.carousel-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel__header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: start;
+    padding-left: 5rem;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+    width: 90%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 5px;
+ 
+    
+}
+
+.carou_para{
+    text-align: start;
+}
+.carousel-control {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-control.prev {
+    left: 0;
+}
+
+.carousel-control.next {
+    right: 0;
+}
+
+.change-height{
+    height: 70%;
+}
+
