@@ -219,3 +219,70 @@ section {
     height: 70%;
 }
 
+
+.freelancer__cont{
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 4px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right__sec{
+    background-color: #002F4B;
+    color: white;
+    width: 50%;
+}
+
+.text-section {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    padding: 9rem 0 0 4rem;
+} 
+
+
+.text-section-header{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.text-section__list {
+    padding-left: 2rem;
+}
+
+.listing {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cta-button {
+    padding: 10px 0px;
+    width: 50%;
+    background-color: white;
+    color: #002F4B;
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #e0e0e0;
+}
+
+.image-section {
+    flex: 1;
+    background-color: #f5f5f5;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
