@@ -10,9 +10,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
 }
 
 .header__wrapper {
@@ -215,6 +213,10 @@ section {
 .carou_para{
     text-align: start;
 }
+
+.space-1{
+    padding-top: 6px;
+}
 .carousel-control {
     background: none;
     border: none;
@@ -354,8 +356,9 @@ section {
 }
 
 .spa i{
-    padding-top: 15px;
+    padding-top: 13px;
     font-size: 20px;
+    color: var(--deep-navy);
 }
 
 .service-item__head {
