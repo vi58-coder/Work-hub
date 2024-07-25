@@ -95,11 +95,21 @@ nav a {
     color: #fff;
 }
 
+.hire:hover{
+    background-color: navy;
+}
+
 
 .join{
     border: 1px solid black;
     color: black;
 }
+
+.join:hover{
+    background-color: var(--deep-navy);
+    color: white;
+}
+
 
 
 .main__container {
@@ -140,6 +150,10 @@ section {
     color: #333;
     border-radius: 30px;
     text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #e0e0e0;
 }
 
 .right__cont{
@@ -588,7 +602,7 @@ h1 {
 .container-5 {
     max-width: 1400px;
     margin: 0 auto;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
